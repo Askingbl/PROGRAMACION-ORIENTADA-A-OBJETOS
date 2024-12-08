@@ -1,0 +1,14 @@
+class Vehículo:
+    def __init__(self, marca, modelo, año):
+        self._marca = marca  # Protected
+        self._modelo = modelo  # Protected
+        self._año = año  # Protected
+
+    def mostrar_información(self):
+        return f"{self._año} {self._marca} {self._modelo}"
+
+    def get_marca(self):
+        return self._marca
+
+    def set_marca(self, marca):
+        self._marca = marca
