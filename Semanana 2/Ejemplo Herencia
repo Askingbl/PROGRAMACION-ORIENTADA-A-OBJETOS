@@ -1,0 +1,10 @@
+class Automóvil(Vehículo):
+    def __init__(self, marca, modelo, año, puertas):
+        super().__init__(marca, modelo, año)
+        self.puertas = puertas
+
+    def encender(self):
+        return f"El automóvil {self.mostrar_información()} está encendido."
+
+    def apagar(self):
+        return f"El automóvil {self.mostrar_información()} está apagado."
