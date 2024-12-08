@@ -1,0 +1,21 @@
+class Motocicleta(Vehículo):
+    def __init__(self, marca, modelo, año, tipo):
+        super().__init__(marca, modelo, año)
+        self.tipo = tipo
+
+    def encender(self):
+        return f"La motocicleta {self.mostrar_información()} está encendida."
+
+    def apagar(self):
+        return f"La motocicleta {self.mostrar_información()} está apagada."
+
+
+# Ejemplo de polimorfismo
+vehículos = [
+    Automóvil("Toyota", "Corolla", 2020, 4),
+    Motocicleta("Yamaha", "MT-07", 2021, "Deportiva")
+]
+
+for v in vehículos:
+    print(v.encender())
+    print(v.apagar())
