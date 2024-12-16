@@ -1,15 +1,21 @@
-class Vehículo:
-    def __init__(self, marca, modelo, año):
-        self.marca = marca
-        self.modelo = modelo
-        self.año = año
+def ingresar_temperaturas():
+    """Función para ingresar temperaturas diarias."""
+    temperaturas = []
+    for i in range(7):
+        temp = float(input(f"Ingrese la temperatura del día {i + 1}: "))
+        temperaturas.append(temp)
+    return temperaturas
 
-    def mostrar_información(self):
-        return f"{self.año} {self.marca} {self.modelo}"
+def calcular_promedio(temperaturas):
+    """Función para calcular el promedio semanal."""
+    return sum(temperaturas) / len(temperaturas)
 
-    def encender(self):
-        raise NotImplementedError("Este método debe ser implementado por una subclase")
+def main():
+    print("Programa para calcular el promedio semanal del clima.")
+    temperaturas = ingresar_temperaturas()
+    promedio = calcular_promedio(temperaturas)
+    print(f"El promedio semanal de temperatura es: {promedio:.2f}°C")
 
-    def apagar(self):
-        raise NotImplementedError("Este método debe ser implementado por una subclase")
+if __name__ == "__main__":
+    main()
 
