@@ -12,4 +12,3 @@ class Vehículo:
 
     def apagar(self):
         raise NotImplementedError("Este método debe ser implementado por una subclase")
-
