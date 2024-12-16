@@ -18,4 +18,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+ #Usa funciones basicas independientes para modular el código.
+#Es sencillo y directo para problemas pequeños.

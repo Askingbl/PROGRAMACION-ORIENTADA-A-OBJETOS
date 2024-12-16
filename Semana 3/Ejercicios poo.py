@@ -36,3 +36,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+#Introduce clases y objetos para estructurar mejor el código.
+#Usa conceptos como encapsulamiento para proteger atributos internos.
+#Es más adecuado para proyectos grandes o con potencial de ampliación
