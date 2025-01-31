@@ -75,3 +75,4 @@ if __name__ == "__main__":
     # Eliminar la instancia explícitamente (esto activará el destructor)
     del my_list
 
+
