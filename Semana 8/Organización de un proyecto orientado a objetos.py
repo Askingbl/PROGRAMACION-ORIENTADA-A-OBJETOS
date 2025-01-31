@@ -19,7 +19,7 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        '1': 'Unidad 1/1.2. Tecnicas de Programacion/1.2-1. Ejemplo Tecnicas de Programacion.py',
+        '1': 'EjemplosMundoReal_POO/principios de POO.py'
         # Agrega aquí el resto de las rutas de los scripts
     }
 
