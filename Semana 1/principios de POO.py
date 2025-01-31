@@ -75,3 +75,4 @@ if __name__ == "__main__":
     total = tienda.calcular_total_inventario()
     print(f"El precio total de los productos en el inventario es: ${total:.2f}")
 
+
