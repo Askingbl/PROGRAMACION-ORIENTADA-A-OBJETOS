@@ -19,7 +19,8 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        '1': 'EjemplosMundoReal_POO/principios de POO.py'
+        '1':'Semana 1/principios de POO.py',
+        '2':'Semana 3/Ejercicios.py'
         # Agrega aquí el resto de las rutas de los scripts
     }
 
