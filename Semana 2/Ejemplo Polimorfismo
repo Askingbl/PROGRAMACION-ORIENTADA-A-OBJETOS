@@ -19,3 +19,4 @@ vehículos = [
 for v in vehículos:
     print(v.encender())
     print(v.apagar())
+
