@@ -63,3 +63,4 @@ if __name__ == "__main__":
     print("\nDemostración de polimorfismo:")
     for medicina in lista_medicinas:
         print(medicina.descripcion())
+
