@@ -1,6 +1,5 @@
 import os
 
-
 def mostrar_codigo(ruta_script):
     # Asegúrate de que la ruta al script es absoluta
     ruta_script_absoluta = os.path.abspath(ruta_script)
@@ -19,13 +18,14 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        '1':'Semana 1/principios de POO.py',
-        '2':'Semana 3/Ejercicios.py'
+        '1': 'Semana 1/principios de POO.py',
+        '2': 'Semana 1/principios de POO.py'
+
         # Agrega aquí el resto de las rutas de los scripts
     }
 
     while True:
-        print("\nMenu Principal - Dashboard")
+        print("\n********Menu Principal - Dashboard*************")
         # Imprime las opciones del menú
         for key in opciones:
             print(f"{key} - {opciones[key]}")
@@ -45,4 +45,3 @@ def mostrar_menu():
 # Ejecutar el dashboard
 if __name__ == "__main__":
     mostrar_menu()
-
