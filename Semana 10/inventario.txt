@@ -1,0 +1,14 @@
+[
+    {
+        "id_producto": "0012",
+        "nombre": "bb",
+        "cantidad": 20,
+        "precio": 10.52
+    },
+    {
+        "id_producto": "0013",
+        "nombre": "agua en botella",
+        "cantidad": 5,
+        "precio": 10.5
+    }
+]
